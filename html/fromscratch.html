@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ethan's From Scratch page</title>
+    <link rel="stylesheet" href="../css/styles2.css">
+</head>
+<body>
+    <header>
+        <a href="about.html" target="_blank">Ethan Carn Home+Resume</a>
+        <a href="webapp.html">Web App</a>
+    </header>
+
+    <main>
+        <div class="header-div">
+            <h1 class="header-text" id="top">My Passion: Vintage Clothing Hunting!</h1>
+        </div>
+        <div class="subheader-div">
+            <h2 class="subheader-text">I specialize in looking for old 80's and 90's clothes that fit my stlye. Whether it be from a thrift store or asking people I know, I always love searching for new, exciting pieces of clothing!</h2>
+        </div>
+        <div class="content-div">
+            <p class="normal-text">
+                <ul>
+                    <li style="list-style-type: none;">
+                        <p>1. Here are some of my best sources to find rare clothing:</p>
+                        <ul>
+                            <li>Talking to BYU Alumni and graduating students to see if they have any</li>
+                            <li>Designated vintage clothing stores in Provo- Thrifthood, Collective Underground</li>
+                            <li>Cheap thrift stores like Goodwill or DI</li>
+                            <li>Ebay</li>
+                        </ul>
+                        <p>2. Here are some things that I would avoid:</p>
+                        <ul>
+                            <li>Clothes with visible stains, they can be hard to remove and reduce the value of the item</li>
+                            <li>Fake leather and worn-out leather- these cannot be restored and get worse with time</li>
+                            <li>Clothes that have not been cleaned- have hairs/smell to them. These cause allergies and are a sign of an un-hygienic store</li>
+                            <li>Overpriced items. Although some vintage items have a higher price tag, sellers that charge in 200+ ranges are often overpricing by using the 'vintage' adjective.</li>
+                        </ul>
+                    </li>
+                </ul>                               
+            </p>
+        </div>
+    </main>
+    <div style="display: flex; flex-direction: column; align-items: center;">
+        <img src="../assets/img/clothes1.jpg" alt="a collection of BYU clothing" style="margin-bottom: 10px;">
+        <img src="../assets/img/clothes2.jpg" alt="a collection of BYU clothing" style="margin-bottom: 10px;">
+        <img src="../assets/img/clothes3.jpg" alt="a collection of BYU clothing" style="margin-bottom: 10px;">
+    </div>
+    <div class="subheader-div">
+        <h2 class="subheader-text">Use this video to find some expert advice about thrift/vintage shopping!</h2>
+    </div>
+    <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/zG8E9k9WZxk?si=0kyaNqqBEDh4r0Ke&amp;start=15" 
+                title="YouTube video player" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+    </div>
+    <div class="subheader-div">
+        <h2 class="subheader-text">Use this Tableau Dataset to learn more about where to buy clothes in Utah!</h2>
+    </div> <br> <br> <br>
+    <div class='tableau' id='viz1733642480767'>
+        <noscript>
+            <a href='#'>
+                <img alt='Dashboard 1 ' src='https://public.tableau.com/static/images/Sa/SalesDashboard-ClothingStore/Dashboard1/1_rss.png' style='border: none' />
+            </a>
+        </noscript>
+        <object class='tableauViz' style='display:none;'>
+            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+            <param name='embed_code_version' value='3' />
+            <param name='site_root' value='' />
+            <param name='name' value='SalesDashboard-ClothingStore/Dashboard1' />
+            <param name='tabs' value='no' />
+            <param name='toolbar' value='yes' />
+            <param name='static_image' value='https://public.tableau.com/static/images/Sa/SalesDashboard-ClothingStore/Dashboard1/1.png' />
+            <param name='animate_transition' value='yes' />
+            <param name='display_static_image' value='yes' />
+            <param name='display_spinner' value='yes' />
+            <param name='display_overlay' value='yes' />
+            <param name='display_count' value='yes' />
+            <param name='language' value='en-US' />
+        </object>
+    </div>
+    <script type='text/javascript'>
+        var divElement = document.getElementById('viz1733642480767');
+        var vizElement = divElement.getElementsByTagName('object')[0];
+        if (divElement.offsetWidth > 800) {
+            vizElement.style.width = '1366px';
+            vizElement.style.height = '795px';
+        } else if (divElement.offsetWidth > 500) {
+            vizElement.style.width = '1366px';
+            vizElement.style.height = '795px';
+        } else {
+            vizElement.style.width = '100%';
+            vizElement.style.height = '1327px';
+        }
+        var scriptElement = document.createElement('script');
+        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+        vizElement.parentNode.insertBefore(scriptElement, vizElement);
+    </script> <br> <br> <br>   
+    <div class="content-div" style="display: flex; flex-direction: column; align-items: center;">
+        <a href="#top">Back to Top</a>
+    </div>
+    <footer>
+        <p class="footer-text">Thanks for learning about Ethan's vintage clothing hunt! Good luck finding your own!</p>
+    </footer>
+</body>
+</html>
+

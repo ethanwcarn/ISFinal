@@ -1,0 +1,129 @@
+/* General Styles */
+.tableau {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 90%; /* Ensure it doesn't take up full width */
+        max-height: 90vh; /* Limit the height to 90% of the viewport height */
+        margin: 0 auto; /* Center the container horizontally */
+        padding: 20px; /* Add some space around the visualization */
+        box-sizing: border-box; /* Ensure padding doesn't affect the size calculation */ }
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../assets/img/byucollection.png);
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-attachment: fixed; /* Makes the background stay in place when scrolling */
+    background-position: center; /* Centers the background image */
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: rgba(244, 244, 244, 0.8); /* Semi-transparent background for readability */
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+header a {
+    text-decoration: none;
+    color: #333;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+header a:hover {
+    color: #007BFF;
+}
+
+/* Header, Subheader, Normal Text, and Footer Text Styles */
+.header-text {
+    font-family: 'Georgia', serif;
+    color: #2c3e50;
+    text-align: center;
+}
+
+.subheader-text {
+    font-family: 'Verdana', sans-serif;
+    color: #1622a0;
+    text-align: center;
+}
+
+.normal-text {
+    font-family: 'Arial', sans-serif;
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+.footer-text {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #95a5a6;
+    text-align: center;
+    background-color: rgba(244, 244, 244, 0.8);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Div Styles */
+.header-div {
+    background-color: rgba(236, 240, 241, 0.9); /* Semi-transparent background for readability */
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 800px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.subheader-div {
+    background-color: rgba(223, 249, 251, 0.9); /* Semi-transparent background for readability */
+    padding: 15px;
+    margin: 10px auto;
+    max-width: 750px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-div {
+    background-color: rgba(245, 245, 245, 0.9); /* Semi-transparent background for readability */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.body2 {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../assets/img/provotemple.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+.button {
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;}
+
+.header2 {
+        position: absolute;
+        top: 20px;
+        left: 20px;
+        background-color: rgba(244, 244, 244, 0.8); /* Semi-transparent background for readability */
+    padding: 10px 20px;
+    }
