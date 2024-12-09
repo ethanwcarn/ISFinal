@@ -121,7 +121,7 @@ header a:hover {
     margin: 20px auto;}
 
 .header2 {
-        position: absolute;
+        position: fixed;
         top: 20px;
         left: 20px;
         background-color: rgba(244, 244, 244, 0.8); /* Semi-transparent background for readability */
